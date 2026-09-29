@@ -7,4 +7,4 @@
 |3|lab3|———|———|
 |4|lab4|———|———|
 
-![Азгор](https://soundcloud.com/kirill-sunczov-521818979/azgor-zadavil-dess-svoim-trakom-russkaya-versiya)
+![Азгор](https://upload.wikimedia.org/wikipedia/commons/b/bb/%D0%9A%D0%BE%D1%82.jpg?utm_source=ru.wikipedia.org&utm_campaign=index&utm_content=original)
