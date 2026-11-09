@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="SP9vmizHLisRA7BQZwkt">
+    <mxGraphModel dx="3265" dy="1340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-1" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PvYc8UQuR4xQMJyBm0Df-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=50;" value="НАЧАЛО" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-3" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PvYc8UQuR4xQMJyBm0Df-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-4" parent="1" style="rounded=0;whiteSpace=wrap;fontColor=default;labelBorderColor=none;textShadow=0;labelBackgroundColor=default;align=left;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;textDirection=ltr;" value="float fa = 100, fb = 0.001;&#xa;float f1 = fa-fb;&#xa;float f2 = pow(f1, 4);&#xa;float f3 = pow(fa, 4);&#xa;float f4 = pow(fa, 3);&#xa;float f5 = 4*f4*fb;&#xa;float f6 = pow(fa, 2);&#xa;float f7 = pow(fb, 4);&#xa;float f8 = 6*f6*f7;&#xa;float f9 = f2-f6+f7;&#xa;float f10 = f2-f9;&#xa;float f11 = pow(fb, 4);&#xa;float f12 = pow(fb, 3);&#xa;float f13 = 4*fa*f12;&#xa;float f14 = f11-f13;&#xa;float f15 = f10/f14;" vertex="1">
+          <mxGeometry height="240" width="240" x="-120" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-5" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PvYc8UQuR4xQMJyBm0Df-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;verticalAlign=top;align=left;" value="cout &lt;&lt; &quot;a - b = &quot; &lt;&lt; f1 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;(a - b)^4 = &quot; &lt;&lt; f2 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;a^4 = &quot; &lt;&lt; f3 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;a^3 = &quot; &lt;&lt; f4 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;4*a^3*b = &quot; &lt;&lt; f5 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;a^2 = &quot; &lt;&lt; f6 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;b^2 = &quot; &lt;&lt; f7 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;6*a^2*b^2 = &quot; &lt;&lt; f8 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;a^4 - 4*a^3*b + 6*a^2*b^2 = &quot; &lt;&lt; f9 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;(a - b)^4 - (a^4 - 4*a^3*b + 6*a^2*b^2) = &quot; &lt;&lt; f10 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;b^4 = &quot; &lt;&lt; f11 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;b^3 = &quot; &lt;&lt; f12 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;4*a*b^3 = &quot; &lt;&lt; f13 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;4*a*b^3 = &quot; &lt;&lt; f13 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;b^4 - 4*a*b^3 = &quot; &lt;&lt; f14 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;( (a - b)^4 - (a^4 - 4*a^3*b + 6*a^2*b^2) )/(b^4 - 4*a*b^3) = &quot; &lt;&lt; f15 &lt;&lt; endl;" vertex="1">
+          <mxGeometry height="240" width="480" x="-240" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-225" y="2400" as="sourcePoint" />
+            <mxPoint x="-225" y="2460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-8" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PvYc8UQuR4xQMJyBm0Df-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-9" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="main()" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-10" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PvYc8UQuR4xQMJyBm0Df-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-11" parent="1" style="rounded=0;whiteSpace=wrap;fontColor=default;labelBorderColor=none;align=left;verticalAlign=middle;" value="setlocale(LC_ALL, &quot;.65001&quot;);&#xa;cout &lt;&lt; fixed;" vertex="1">
+          <mxGeometry height="60" width="240" x="-120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-12" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PvYc8UQuR4xQMJyBm0Df-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="    cout &lt;&lt; &quot;=== Решение 2: float (pow) ===&quot; &lt;&lt; endl;" vertex="1">
+          <mxGeometry height="60" width="360" x="-180" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-14" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PvYc8UQuR4xQMJyBm0Df-17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="2230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-15" parent="1" style="rounded=0;whiteSpace=wrap;fontColor=default;labelBorderColor=none;textShadow=0;labelBackgroundColor=default;align=left;verticalAlign=middle;" value="double da = 100, db = 0.001;&#xa;double d1 = da-db;&#xa;double d2 = pow(d1, 4);&#xa;double d3 = pow(da, 4);&#xa;double d4 = pow(da, 3);&#xa;double d5 = 4*d4*db;&#xa;double d6 = pow(da, 2);&#xa;double d7 = pow(db, 4);&#xa;double d8 = 6*d6*d7;&#xa;double d9 = d2-d6+d7;&#xa;double d10 = d2-d9;&#xa;double d11 = pow(db, 4);&#xa;double d12 = pow(db, 3);&#xa;double d13 = 4*da*d12;&#xa;double d14 = d11-d13;&#xa;double d15 = d10/d14;" vertex="1">
+          <mxGeometry height="240" width="240" x="-120" y="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-16" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PvYc8UQuR4xQMJyBm0Df-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;verticalAlign=top;align=left;" value="cout &lt;&lt; &quot;a - b = &quot; &lt;&lt; d1 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;(a - b)^4 = &quot; &lt;&lt; d2 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;a^4 = &quot; &lt;&lt; d3 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;a^3 = &quot; &lt;&lt; d4 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;4*a^3*b = &quot; &lt;&lt; d5 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;a^2 = &quot; &lt;&lt; d6 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;b^2 = &quot; &lt;&lt; d7 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;6*a^2*b^2 = &quot; &lt;&lt; d8 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;a^4 - 4*a^3*b + 6*a^2*b^2 = &quot; &lt;&lt; d9 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;(a - b)^4 - (a^4 - 4*a^3*b + 6*a^2*b^2) = &quot; &lt;&lt; d10 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;b^4 = &quot; &lt;&lt; d11 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;b^3 = &quot; &lt;&lt; d12 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;4*a*b^3 = &quot; &lt;&lt; d13 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;b^4 - 4*a*b^3 = &quot; &lt;&lt; d14 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;( (a - b)^4 - (a^4 - 4*a^3*b + 6*a^2*b^2) )/(b^4 - 4*a*b^3) = &quot; &lt;&lt; d15 &lt;&lt; endl;" vertex="1">
+          <mxGeometry height="240" width="480" x="-240" y="2280" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-18" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PvYc8UQuR4xQMJyBm0Df-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cout &lt;&lt; &quot;\n=== Решение 3: double (pow) ===&quot; &lt;&lt; endl;" vertex="1">
+          <mxGeometry height="60" width="360" x="-180" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-20" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="PvYc8UQuR4xQMJyBm0Df-34" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint y="90" as="sourcePoint" />
+            <mxPoint x="120" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=50;" value="return 0;" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" y="3840" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-22" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PvYc8UQuR4xQMJyBm0Df-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="cout &lt;&lt; &quot;\n=== Задание 2 ===&quot; &lt;&lt; endl;" vertex="1">
+          <mxGeometry height="60" width="360" x="-180" y="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-24" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PvYc8UQuR4xQMJyBm0Df-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-25" parent="1" style="rounded=0;whiteSpace=wrap;fontColor=default;labelBorderColor=none;textShadow=0;labelBackgroundColor=default;align=left;verticalAlign=middle;" value="int n = 5;&#xa;int m = 3;&#xa;int r1 = n---m;&#xa;int r2 = m--&lt;n;&#xa;int r3 = n++&gt;m;" vertex="1">
+          <mxGeometry height="120" width="120" x="-60" y="3480" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-26" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PvYc8UQuR4xQMJyBm0Df-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-27" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;verticalAlign=top;align=left;" value="cout &lt;&lt; &quot;n = &quot; &lt;&lt; n &lt;&lt; endl;&#xa;cout&lt;&lt; &quot;m = &quot; &lt;&lt; m &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;n---m = &quot; &lt;&lt; r1 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;Пояснение: n-- возвращает старое значение 5, 5-3 = 2, n становится 4&quot; &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;m--&lt;n = &quot; &lt;&lt; r2 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;Пояснение: m-- возвращает старое значение 3, 3&lt;5 = True = 1, m становится 2&quot; &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;n++&gt;m = &quot; &lt;&lt; r3 &lt;&lt; endl;&#xa;cout &lt;&lt; &quot;Пояснение: n++ возвращает старое значение 5, 5&gt;3 = True = 1, n становится 6&quot; &lt;&lt; endl;" vertex="1">
+          <mxGeometry height="120" width="600" x="-300" y="3660" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;verticalAlign=middle;" value="&lt;font size=&quot;1&quot;&gt;A&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="60" x="-30" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-29" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PvYc8UQuR4xQMJyBm0Df-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="A" vertex="1">
+          <mxGeometry height="60" width="60" x="-30" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="B" vertex="1">
+          <mxGeometry height="60" width="60" x="-30" y="2580" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-32" edge="1" parent="1" source="PvYc8UQuR4xQMJyBm0Df-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PvYc8UQuR4xQMJyBm0Df-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="B" vertex="1">
+          <mxGeometry height="60" width="60" x="-30" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="PvYc8UQuR4xQMJyBm0Df-34" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" value="#include &amp;lt;iostream&amp;gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;#include &amp;lt;cmath&amp;gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;#include &amp;lt;clocale&amp;gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;#include &amp;lt;iomanip&amp;gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;using namespace std;" vertex="1">
+          <mxGeometry height="120" width="60" x="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VTVKItbw3_3mmEmz8SA8-1" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="{" vertex="1">
+          <mxGeometry x="-10" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VTVKItbw3_3mmEmz8SA8-2" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="}" vertex="1">
+          <mxGeometry y="3910" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

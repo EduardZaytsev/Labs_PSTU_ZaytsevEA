@@ -1,0 +1,91 @@
+#include <iostream>
+#include <cmath>
+#include <clocale>
+#include <iomanip>
+using namespace std;
+int main() {
+    setlocale(LC_ALL, ".65001");
+    cout << fixed;
+    cout << "=== Решение 2: float (pow) ===" << endl;
+    float fa = 100, fb = 0.001;
+    float f1 = fa-fb;
+    float f2 = pow(f1, 4);
+    float f3 = pow(fa, 4);
+    float f4 = pow(fa, 3);
+    float f5 = 4*f4*fb;
+    float f6 = pow(fa, 2);
+    float f7 = pow(fb, 4);
+    float f8 = 6*f6*f7;
+    float f9 = f2-f6+f7;
+    float f10 = f2-f9;
+    float f11 = pow(fb, 4);
+    float f12 = pow(fb, 3);
+    float f13 = 4*fa*f12;
+    float f14 = f11-f13;
+    float f15 = f10/f14;
+    cout << "a - b = " << f1 << endl;
+    cout << "(a - b)^4 = " << f2 << endl;
+    cout << "a^4 = " << f3 << endl;
+    cout << "a^3 = " << f4 << endl;
+    cout << "4*a^3*b = " << f5 << endl;
+    cout << "a^2 = " << f6 << endl;
+    cout << "b^2 = " << f7 << endl;
+    cout << "6*a^2*b^2 = " << f8 << endl;
+    cout << "a^4 - 4*a^3*b + 6*a^2*b^2 = " << f9 << endl;
+    cout << "(a - b)^4 - (a^4 - 4*a^3*b + 6*a^2*b^2) = " << f10 << endl;
+    cout << "b^4 = " << f11 << endl;
+    cout << "b^3 = " << f12 << endl;
+    cout << "4*a*b^3 = " << f13 << endl;
+    cout << "4*a*b^3 = " << f13 << endl;
+    cout << "b^4 - 4*a*b^3 = " << f14 << endl;
+    cout << "( (a - b)^4 - (a^4 - 4*a^3*b + 6*a^2*b^2) )/(b^4 - 4*a*b^3) = " << f15 << endl;
+
+    cout << "\n=== Решение 3: double (pow) ===" << endl;
+    double da = 100, db = 0.001;
+    double d1 = da-db;
+    double d2 = pow(d1, 4);
+    double d3 = pow(da, 4);
+    double d4 = pow(da, 3);
+    double d5 = 4*d4*db;
+    double d6 = pow(da, 2);
+    double d7 = pow(db, 4);
+    double d8 = 6*d6*d7;
+    double d9 = d2-d6+d7;
+    double d10 = d2-d9;
+    double d11 = pow(db, 4);
+    double d12 = pow(db, 3);
+    double d13 = 4*da*d12;
+    double d14 = d11-d13;
+    double d15 = d10/d14;
+    cout << "a - b = " << d1 << endl;
+    cout << "(a - b)^4 = " << d2 << endl;
+    cout << "a^4 = " << d3 << endl;
+    cout << "a^3 = " << d4 << endl;
+    cout << "4*a^3*b = " << d5 << endl;
+    cout << "a^2 = " << d6 << endl;
+    cout << "b^2 = " << d7 << endl;
+    cout << "6*a^2*b^2 = " << d8 << endl;
+    cout << "a^4 - 4*a^3*b + 6*a^2*b^2 = " << d9 << endl;
+    cout << "(a - b)^4 - (a^4 - 4*a^3*b + 6*a^2*b^2) = " << d10 << endl;
+    cout << "b^4 = " << d11 << endl;
+    cout << "b^3 = " << d12 << endl;
+    cout << "4*a*b^3 = " << d13 << endl;
+    cout << "b^4 - 4*a*b^3 = " << d14 << endl;
+    cout << "( (a - b)^4 - (a^4 - 4*a^3*b + 6*a^2*b^2) )/(b^4 - 4*a*b^3) = " << d15 << endl;
+
+    cout << "\n=== Задание 2 ===" << endl;
+    int n = 5;
+    int m = 3;
+    int r1 = n---m;
+    int r2 = m--<n;
+    int r3 = n++>m;
+    cout << "n = " << n << endl;
+    cout<< "m = " << m << endl;
+    cout << "n---m = " << r1 << endl;
+    cout << "Пояснение: n-- возвращает старое значение 5, 5-3 = 2, n становится 4" << endl;
+    cout << "m--<n = " << r2 << endl;
+    cout << "Пояснение: m-- возвращает старое значение 3, 3<5 = True = 1, m становится 2" << endl;
+    cout << "n++>m = " << r3 << endl;
+    cout << "Пояснение: n++ возвращает старое значение 5, 5>3 = True = 1, n становится 6" << endl;
+    return 0;
+}

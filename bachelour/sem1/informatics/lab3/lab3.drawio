@@ -1,0 +1,300 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="5GnKL9VyoeSuBBp06KgY">
+    <mxGraphModel dx="2876" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gExmAPkSI6gQ59IovAJg-1" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gExmAPkSI6gQ59IovAJg-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=50;" value="НАЧАЛО" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-3" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gExmAPkSI6gQ59IovAJg-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-4" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="main()" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-5" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-6" parent="1" style="rounded=0;whiteSpace=wrap;fontColor=default;labelBorderColor=none;align=left;" value="setlocale(LC_ALL, &quot;.65001&quot;);&#xa;double a = 0.0, b = 1.0;&#xa;int k = 10;&#xa;double h = (b - a) / k;&#xa;int n = 10;&#xa;double eps = 1e-4;" vertex="1">
+          <mxGeometry height="120" width="240" x="-120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1" y="90" as="sourcePoint" />
+            <mxPoint x="121" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-8" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;align=left;verticalAlign=middle;" value="cout &lt;&lt; fixed &lt;&lt; setprecision(6);&#xa;cout &lt;&lt; setw(8)  &lt;&lt; &quot;x&quot;&#xa;&lt;&lt; setw(16) &lt;&lt; &quot;S(n=10)&quot;&#xa;&lt;&lt; setw(16) &lt;&lt; &quot;S(eps)&quot;&#xa;&lt;&lt; setw(16) &lt;&lt; &quot;Точное&quot; &lt;&lt; endl;" vertex="1">
+          <mxGeometry height="120" width="240" x="-120" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-10" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-11" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;shapeInside=1;fixedSize=1;align=center;verticalAlign=middle;" value="for (int i = 0; i &lt;= k; i++)" vertex="1">
+          <mxGeometry height="60" width="240" x="-120" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-12" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-13" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;shapeInside=1;fixedSize=1;align=center;verticalAlign=middle;" value="for (int j = 0; j &lt; n; j++)" vertex="1">
+          <mxGeometry height="30" width="240" x="-120" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-14" parent="1" style="rounded=0;whiteSpace=wrap;align=center;verticalAlign=middle;" value="double fact = 1;" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-15" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-16" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;shapeInside=1;fixedSize=1;align=center;verticalAlign=middle;" value="for (int m = 2; m &lt;= j; m++)" vertex="1">
+          <mxGeometry height="30" width="240" x="-120" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-17" parent="1" style="rounded=0;whiteSpace=wrap;align=center;verticalAlign=middle;" value="fact *= m;" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-18" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-17" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-16" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.3602" as="geometry">
+            <Array as="points">
+              <mxPoint x="1" y="1320" />
+              <mxPoint x="-180" y="1320" />
+              <mxPoint x="-180" y="1125" />
+            </Array>
+            <mxPoint x="-34" y="1126" as="sourcePoint" />
+            <mxPoint x="16" y="1076" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-19" parent="1" style="rounded=0;whiteSpace=wrap;" value="sN += cos(j * x) / fact;" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-20" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-16" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-19" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0003" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="1125" />
+            </Array>
+            <mxPoint x="-34" y="1276" as="sourcePoint" />
+            <mxPoint x="16" y="1226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-21" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-19" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-13" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.4785" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="1500" />
+              <mxPoint x="-240" y="1500" />
+              <mxPoint x="-240" y="915" />
+            </Array>
+            <mxPoint x="-34" y="1226" as="sourcePoint" />
+            <mxPoint x="16" y="1176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-22" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-14" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-4" y="1231" as="sourcePoint" />
+            <mxPoint x="46" y="1181" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-23" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-24" parent="1" style="rounded=0;whiteSpace=wrap;align=left;verticalAlign=top;" value="double sE = 0;&#xa;int j = 0;&#xa;double term;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-25" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-26" parent="1" style="rounded=0;whiteSpace=wrap;" value="double fact = 1;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="2580" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-27" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-28" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;shapeInside=1;fixedSize=1;" value="for (int m = 2; m &lt;= j; m++)" vertex="1">
+          <mxGeometry height="60" width="240" x="180" y="2700" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-29" parent="1" style="rounded=0;whiteSpace=wrap;" value="fact *= m;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="2820" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-30" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-29" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-28" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.4784" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="2940" />
+              <mxPoint x="120" y="2940" />
+              <mxPoint x="120" y="2730" />
+            </Array>
+            <mxPoint x="318.0100000000002" y="2760" as="sourcePoint" />
+            <mxPoint x="368.0100000000002" y="2710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-31" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-32" parent="1" style="rounded=0;whiteSpace=wrap;align=left;verticalAlign=top;" value="term = cos(j * x) / fact;&#xa;sE += term;&#xa;j++;" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="3000" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-33" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-28" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-32" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.002" as="geometry">
+            <mxPoint x="328.0100000000002" y="2910" as="sourcePoint" />
+            <mxPoint x="378.0100000000002" y="2860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-34" parent="1" style="rhombus;whiteSpace=wrap;shapeInside=1;" value="while(fabs(term) &gt;= eps)" vertex="1">
+          <mxGeometry height="120" width="240" x="360" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-35" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-34" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="gExmAPkSI6gQ59IovAJg-53" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1333" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="3180" />
+              <mxPoint x="60" y="2490" />
+            </Array>
+            <mxPoint x="298.0100000000002" y="3110" as="sourcePoint" />
+            <mxPoint x="210" y="2580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-36" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;shapeInside=1;fixedSize=1;align=left;verticalAlign=top;" value="cout &lt;&lt; setw(8)  &lt;&lt; x&#xa;&lt;&lt; setw(16) &lt;&lt; sN&#xa;&lt;&lt; setw(16) &lt;&lt; sE&#xa;&lt;&lt; setw(16) &lt;&lt; exact &lt;&lt; endl;" vertex="1">
+          <mxGeometry height="120" width="240" x="600" y="3300" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=50;" value="return 0;" vertex="1">
+          <mxGeometry height="60" width="120" x="840" y="3540" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="A" vertex="1">
+          <mxGeometry height="60" width="60" x="-330" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="B" vertex="1">
+          <mxGeometry height="60" width="60" x="270" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="C" vertex="1">
+          <mxGeometry height="60" width="60" x="870" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-41" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-13" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gExmAPkSI6gQ59IovAJg-39" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.7042" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="915" />
+            </Array>
+            <mxPoint x="127.98999999999978" y="890" as="sourcePoint" />
+            <mxPoint x="380" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-42" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-38" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-11" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1122" as="geometry">
+            <mxPoint x="136" y="1155" as="sourcePoint" />
+            <mxPoint x="186" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-43" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-11" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-40" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="96" y="1065" as="sourcePoint" />
+            <mxPoint x="146" y="1015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-44" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="A" vertex="1">
+          <mxGeometry height="60" width="60" x="-330" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-45" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-46" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="B" vertex="1">
+          <mxGeometry height="60" width="60" x="270" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="C" vertex="1">
+          <mxGeometry height="60" width="60" x="870" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-48" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-47" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-37" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0654" as="geometry">
+            <mxPoint x="234.01000000000022" y="2300" as="sourcePoint" />
+            <mxPoint x="234.01000000000022" y="2740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-49" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-36" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-44" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1623" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="3480" />
+              <mxPoint x="-300" y="3480" />
+            </Array>
+            <mxPoint x="274.0100000000002" y="3000" as="sourcePoint" />
+            <mxPoint x="-295.99000000000024" y="2740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-50" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gExmAPkSI6gQ59IovAJg-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-51" parent="1" style="rounded=0;whiteSpace=wrap;align=left;verticalAlign=middle;" value="double x = a + i * h;&#xa;double exact = exp(cos(x)) * cos(sin(x));&#xa;double sN = 0;" vertex="1">
+          <mxGeometry height="120" width="240" x="-120" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-52" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gExmAPkSI6gQ59IovAJg-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-53" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;" value="do" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="2460" as="geometry" />
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-54" edge="1" parent="1" source="gExmAPkSI6gQ59IovAJg-34" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="gExmAPkSI6gQ59IovAJg-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="3510" as="sourcePoint" />
+            <mxPoint x="770" y="3460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gExmAPkSI6gQ59IovAJg-55" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" value="#include &amp;lt;iostream&amp;gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;#include &amp;lt;clocale&amp;gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;#include &amp;lt;cmath&amp;gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;#include &amp;lt;iomanip&amp;gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;using namespace std;" vertex="1">
+          <mxGeometry height="120" width="60" x="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-1" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="}" vertex="1">
+          <mxGeometry x="900" y="3610" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-2" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="{" vertex="1">
+          <mxGeometry x="-10" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-3" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="{" vertex="1">
+          <mxGeometry x="-10" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-4" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="}" vertex="1">
+          <mxGeometry x="190" y="1465" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-5" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="{" vertex="1">
+          <mxGeometry x="-10" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-6" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="}" vertex="1">
+          <mxGeometry x="730" y="3445" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-7" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="{" vertex="1">
+          <mxGeometry x="290" y="2550" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-8" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="}" vertex="1">
+          <mxGeometry x="490" y="3090" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-9" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="False" vertex="1">
+          <mxGeometry x="150" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-10" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="False" vertex="1">
+          <mxGeometry x="160" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-11" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="False" vertex="1">
+          <mxGeometry x="150" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-12" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="False" vertex="1">
+          <mxGeometry x="450" y="2710" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-13" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="False" vertex="1">
+          <mxGeometry x="630" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-14" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="True" vertex="1">
+          <mxGeometry x="30" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-15" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="True" vertex="1">
+          <mxGeometry x="30" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-16" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="True" vertex="1">
+          <mxGeometry x="30" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-17" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="True" vertex="1">
+          <mxGeometry x="330" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="3wWjMOPvKSMVBVRddJdo-18" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;fontSize=26;defaultLabelBackgroundColor=page;" value="True" vertex="1">
+          <mxGeometry x="330" y="2790" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
